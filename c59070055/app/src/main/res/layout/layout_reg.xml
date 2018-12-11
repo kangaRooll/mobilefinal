@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="35dp">
+
+            <EditText
+                android:id="@+id/register_user"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_action_name"
+                android:ems="10"
+                android:hint="user"
+                android:inputType="textEmailAddress"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="99dp" />
+
+            <EditText
+                android:id="@+id/register_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_action_name2"
+                android:ems="10"
+                android:hint="name"
+                android:inputType="textEmailAddress"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="281dp" />
+
+            <EditText
+                android:id="@+id/register_age"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_action_name3"
+                android:ems="10"
+                android:hint="age"
+                android:inputType="textEmailAddress"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="281dp" />
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_action_name1"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="281dp" />
+
+            <Button
+                android:id="@+id/register_register_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="register"
+                android:textColor="@android:color/background_light" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
